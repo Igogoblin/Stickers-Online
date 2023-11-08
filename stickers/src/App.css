@@ -1,3 +1,20 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+footer {
+  border: 1px solid gray;
+}
+li {
+  list-style-type: none;
 }
