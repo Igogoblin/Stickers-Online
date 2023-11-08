@@ -1,12 +1,20 @@
+import React from "react";
 import "./App.css";
-import Base from "./components/Base";
-import Stiecker from "./components/sticker";
+import Sticker from "./components/Sticker";
+import Home from "./components/Home";
+import Manager from "./components/manager/Manager";
 
 function App() {
   return (
     <div className="App">
-      <Base></Base>
-      <Stiecker></Stiecker>
+      <main>
+        <Manager></Manager>
+        <Sticker></Sticker>
+      </main>
+
+      <footer>
+        <Home></Home>
+      </footer>
     </div>
   );
 }

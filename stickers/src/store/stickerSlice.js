@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const stickerSlice = createSlice({
-  name: "stieck",
+  name: "stick",
   initialState: {
-    stieckers: [],
+    stickers: [],
   },
   reducers: {},
 });
